@@ -2,7 +2,7 @@ package clase_5;
 
 import java.util.Scanner;
 
-public class Ejecicio4 {
+public class Ejercicio4 {
 
     public String CalculadoraPropinas() {
         Scanner entradaDatos = new Scanner(System.in);
