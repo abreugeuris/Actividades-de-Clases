@@ -2,7 +2,7 @@ package clase_6;
 
 import java.util.Scanner;
 
-public class BuscadorGogleMaps {
+public class ActividadesClase6 {
 
     private  String url;
 
@@ -23,6 +23,13 @@ public class BuscadorGogleMaps {
         System.out.println(url + palabra);
 
     }
+    public void llamadaWhatsapp(){
+        this.url ="https://api.whatsapp.com/send?phone=1";
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite el numero al que desea llamar : ");
+        String numero = teclado.nextLine();
+        System.out.println(url + numero);
 
+    }
 
 }

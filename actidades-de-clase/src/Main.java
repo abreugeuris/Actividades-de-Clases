@@ -1,12 +1,10 @@
-import clase_5.*;
-
-import java.util.Scanner;
+import clase_6.ActividadesClase6;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        Ejercicio1 ejercicio1 = new Ejercicio1();
+        /*Ejercicio1 ejercicio1 = new Ejercicio1();
         System.out.println("---Ejercicio-1 Calculadora de edad de perros.---");
         System.out.println(ejercicio1.CalculaEdadPerro());
 
@@ -34,7 +32,21 @@ public class Main {
             System.out.println("haz adivinado el nuemro, Felicitaciones!!!!");
         } else {
             System.out.println("Lo siento, Intentalo nuevamente!");
-        }
+        }*/
+
+        System.out.println("---Clase-6 ----");
+
+        ActividadesClase6 actividadesClase6 = new ActividadesClase6();
+        System.out.println("---Ejercici0-1  Buscador de Google Maps--");
+
+        actividadesClase6 .buscarGoolgeMap();
+
+        System.out.println("---Ejercicio-2  Buscador de Google Maps--");
+        actividadesClase6.buscardorTweets();
+
+        System.out.println("---Ejercicio-3  Buscador de Google Maps--");
+        actividadesClase6.llamadaWhatsapp();
+
 
 
     }
