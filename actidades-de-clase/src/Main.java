@@ -48,9 +48,7 @@ public class Main {
         System.out.println("---Ejercicio-3  Buscador de Google Maps--");
         actividadesClase6.llamadaWhatsapp();*/
 
-
         System.out.println("---Clase-7----");
-
         ActividadesClase7 actividadesClase7 = new ActividadesClase7();
         System.out.println("---Ejercici0-1-------");
         actividadesClase7.promedioDeNumeros();
