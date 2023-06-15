@@ -12,7 +12,7 @@ public class ActividadesClase6 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite la ubicacion que desea buscar : ");
         String pais = teclado.nextLine();
-        System.out.println(url + pais);
+        System.out.println("Enlace de busqueda :" + url + pais);
 
     }
     public void buscardorTweets(){
@@ -20,7 +20,7 @@ public class ActividadesClase6 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite el nomnre de la celebridad que desea buscar : ");
         String palabra = teclado.nextLine();
-        System.out.println(url + palabra);
+        System.out.println("Enlace de busqueda :" + url + palabra);
 
     }
     public void llamadaWhatsapp(){
@@ -28,7 +28,7 @@ public class ActividadesClase6 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite el numero al que desea llamar : ");
         String numero = teclado.nextLine();
-        System.out.println(url + numero);
+        System.out.println("Enlace de llamada :" + url + numero);
 
     }
 

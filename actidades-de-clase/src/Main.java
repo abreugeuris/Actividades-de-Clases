@@ -1,4 +1,5 @@
 import clase_6.ActividadesClase6;
+import clase_7.ActividadesClase7;
 
 
 public class Main {
@@ -32,7 +33,7 @@ public class Main {
             System.out.println("haz adivinado el nuemro, Felicitaciones!!!!");
         } else {
             System.out.println("Lo siento, Intentalo nuevamente!");
-        }*/
+        }
 
         System.out.println("---Clase-6 ----");
 
@@ -45,9 +46,14 @@ public class Main {
         actividadesClase6.buscardorTweets();
 
         System.out.println("---Ejercicio-3  Buscador de Google Maps--");
-        actividadesClase6.llamadaWhatsapp();
+        actividadesClase6.llamadaWhatsapp();*/
 
 
+        System.out.println("---Clase-7----");
+
+        ActividadesClase7 actividadesClase7 = new ActividadesClase7();
+        System.out.println("---Ejercici0-1-------");
+        actividadesClase7.promedioDeNumeros();
 
     }
 }
