@@ -1,5 +1,9 @@
 import clase_6.ActividadesClase6;
+import clase_6.NumeroMayorYMenor;
 import clase_7.ActividadesClase7;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
 
 
 public class Main {
@@ -33,25 +37,37 @@ public class Main {
             System.out.println("haz adivinado el nuemro, Felicitaciones!!!!");
         } else {
             System.out.println("Lo siento, Intentalo nuevamente!");
-        }
+        }*/
 
         System.out.println("---Clase-6 ----");
 
         ActividadesClase6 actividadesClase6 = new ActividadesClase6();
-        System.out.println("---Ejercici0-1  Buscador de Google Maps--");
+//        System.out.println("---Ejercici0-1  Buscador de Google Maps--");
+//
+//        actividadesClase6 .buscarGoolgeMap();
+//
+//        System.out.println("---Ejercicio-2  Buscador de Google Maps--");
+//        actividadesClase6.buscardorTweets();
+//
+//        System.out.println("---Ejercicio-3  Buscador de Google Maps--");
+//        actividadesClase6.llamadaWhatsapp();
 
-        actividadesClase6 .buscarGoolgeMap();
+        NumeroMayorYMenor numeroMayorYMenor = new NumeroMayorYMenor();
+        Scanner entrada =  new Scanner(System.in);
+        System.out.println("Acontinuacion ingrese 3 numeros para Saber el mayor y El menor");
+        System.out.println("Digite el numero #1 : ");
+        int numero1 = entrada.nextInt();
+        System.out.println("Digite el numero #2 : ");
+        int numero2 = entrada.nextInt();
+        System.out.println("Digite el numero #3 : ");
+        int numero3= entrada.nextInt();
 
-        System.out.println("---Ejercicio-2  Buscador de Google Maps--");
-        actividadesClase6.buscardorTweets();
+        numeroMayorYMenor.ImprimeNumeroMayorYmenor(numero1,numero2,numero3);
 
-        System.out.println("---Ejercicio-3  Buscador de Google Maps--");
-        actividadesClase6.llamadaWhatsapp();*/
-
-        System.out.println("---Clase-7----");
+        /*System.out.println("---Clase-7----");
         ActividadesClase7 actividadesClase7 = new ActividadesClase7();
         System.out.println("---Ejercici0-1-------");
-        actividadesClase7.promedioDeNumeros();
+        actividadesClase7.promedioDeNumeros();*/
 
     }
 }
